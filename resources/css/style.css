@@ -144,11 +144,21 @@ nav ul {
 }
 
 .nav1 ul li {
-  padding-right: 1rem;
+  margin-right: 1rem;
 }
 
 .nav1 a {
   color: #666666;
+}
+
+.nav1 li {
+  transition: all 250ms ease-out;
+  display: inline-block;
+}
+
+.nav1 li:hover {
+  background-color: rgba(204, 194, 178, 1);
+  color: rgba(248, 248, 255, 1);
 }
 
 .mobile-nav {
@@ -161,8 +171,7 @@ nav ul {
 }
 
 .mobile-nav a {
-  height: 1.5rem;
-  padding: 1.5rem;
+  padding: .7rem 1.5rem .5rem 1.5rem;
   border-top-right-radius: .5rem;
   border-top-left-radius: .5rem;
   transition: background 250ms ease-out;
@@ -178,9 +187,7 @@ nav ul {
 }
 
 @media only screen and (max-width: 667px){
-  .top {
-    border: 0;
-  }
+
   .logo, .nav1 {
     display: none;
   }
@@ -193,9 +200,7 @@ nav ul {
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
-  .top {
-    border: 0;
-  }
+
   .logo, .nav1 {
     display: none;
   }
