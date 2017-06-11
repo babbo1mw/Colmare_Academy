@@ -65,7 +65,7 @@ font-weight: bold;
 
 /*MEDIA FONT SIZE SECTION*/
 
-@media only screen and (max-width: 966px) {
+/*@media only screen and (max-width: 966px) {
   html {
     font-size: 12px;
   }
@@ -75,7 +75,7 @@ font-weight: bold;
   html {
     font-size: 8px;
   }
-}
+}*/
 
 /*@media only screen and (max-width: 630px) {
   html {
