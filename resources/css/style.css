@@ -94,7 +94,7 @@ font-weight: bold;
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
   html {
-    font-size: 22px;
+    font-size: 40px;
     line-height: 1.25;
   }
 }
