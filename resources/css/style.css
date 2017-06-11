@@ -185,6 +185,7 @@ nav ul {
     justify-content: center;
   }
 
+
 }
 
 @media only screen
@@ -202,7 +203,7 @@ and (max-device-width : 667px) {
   }
 
   .mobile-nav li, img {
-      height: 4rem;
+      height: 3rem;
     }
 
 }
