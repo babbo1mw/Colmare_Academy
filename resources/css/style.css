@@ -184,7 +184,9 @@ nav ul {
     display: flex;
     justify-content: center;
   }
+
 }
+
 @media only screen
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
@@ -198,6 +200,11 @@ and (max-device-width : 667px) {
     display: flex;
     justify-content: center;
   }
+
+  .mobile-nav li, img {
+      height: 4rem;
+    }
+
 }
 
 /*BANNERX*/
