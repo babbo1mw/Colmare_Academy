@@ -83,12 +83,15 @@ font-weight: bold;
   }
 }*/
 
-@media screen and (max-width: 800px) {
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
   html {
     font-size: 16px;
     line-height: 1.25;
   }
 }
+
 
 .main-content {
   border: 1px solid rgba(204, 194, 178, 0.4);
@@ -163,7 +166,9 @@ nav ul {
   background-color: rgba(204, 194, 178, 1);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
   .top {
     border: 0;
   }
@@ -240,7 +245,9 @@ nav ul {
   background-color: rgba(37, 200, 88, 1);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
   .banner {
     padding: 2rem 1rem;
     text-align: center;
@@ -363,7 +370,9 @@ nav ul {
   display: none;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
   .rightside-img img {
     display: none;
   }
@@ -454,7 +463,9 @@ nav ul {
   height: 100%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
   .Section2 {
     background-color: rgba(248, 248, 255, 1);
     padding-bottom: 2rem;
@@ -530,7 +541,9 @@ nav ul {
   margin-top: 1.5;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
   .Section3 {
     border-top: 1px solid rgba(204, 194, 178, 0.4);
   }
@@ -564,7 +577,9 @@ footer {
   border-top: 1px solid rgba(204, 194, 178, 0.4);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
   .footer2 {
     display: none;
   }
