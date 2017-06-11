@@ -94,7 +94,7 @@ font-weight: bold;
 and (min-device-width : 375px)
 and (max-device-width : 667px) {
   html {
-    font-size: 16px;
+    font-size: 22px;
     line-height: 1.25;
   }
 }
@@ -263,7 +263,7 @@ and (max-device-width : 667px) {
   background-color: rgba(37, 200, 88, 1);
 }
 
-@media only screen and (max-width: 667px) {
+@media only screen and (max-width: 667px){
   .banner {
     padding: 2rem 1rem;
     text-align: center;
@@ -279,6 +279,7 @@ and (max-device-width : 667px) {
     margin: 0;
     display: block;
     height: inherit;
+    width: 100%;
   }
   .Learn {
     font-size: 2rem;
@@ -296,7 +297,7 @@ and (max-device-width : 667px) {
 
 @media only screen
 and (min-device-width : 375px)
-and (max-device-width : 667px){
+and (max-device-width : 667px) {
   .banner {
     padding: 2rem 1rem;
     text-align: center;
